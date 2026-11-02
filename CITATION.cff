@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this code or empirical benchmark suite, please cite our paper."
+title: "EdgeShield-FL: Mapping the Empirical Boundaries of Privacy-Preserving Defense in Heterogeneous Federated Networks"
+authors:
+  - family-names: "Mishr"
+    given-names: "Anshul"
+    alias: "Sir ASFC Mishr"
+    affiliation: "Department of Computer Science and Engineering, Birla Institute of Technology and Science (BITS), Pilani"
+    email: "2024eb03337@online.bits-pilani.ac.in"
+date-released: 2026-10-18
+license: MIT

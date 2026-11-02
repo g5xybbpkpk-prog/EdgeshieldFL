@@ -1,8 +1,8 @@
 # EdgeShield-FL: Mapping the Empirical Boundaries of Privacy-Preserving Defense in Heterogeneous Federated Networks
 
-> **Authors:** Anonymous Authors  
-> **Affiliation:** Anonymous Institution  
-> **Correspondence:** Anonymous Email  
+> **Author:** Sir ASFC Mishr (Anshul Mishr)  
+> **Affiliation:** Department of Computer Science and Engineering, Birla Institute of Technology and Science (BITS), Pilani  
+> **Correspondence:** `2024eb03337@online.bits-pilani.ac.in`  
 
 ---
 
@@ -721,7 +721,7 @@ To ensure full cryptographic verifiability, every quantitative metric and table 
 | **Stage 7: Checkpoint (Milestone 1, $\alpha=1.0$)** | 6 arms | ~5.5 GPU-hrs | `stage7_alpha1_5seeds_results.json` | `1515fb54f6748d3adb1cc005ffd76510adecfdafb56659e4b8a643d98840eb64` | Intermediate 5-seed checkpoint (seeds 45, 46 for FedAvg Clean, SF, EdgeShield) |
 | **Stage 7: Multi-Seed Replication Sweep ($\alpha=1.0$)** | 11 arms | ~10.5 GPU-hrs | `stage7_alpha1_seeds_results.json` | `1e9676cb65ad8635b514560e012f4a636e488706807d09c9642554707ddbc980` | Full pre-registered replication sweep across seeds 45–48 (executed across two guarded sessions via checkpoint resumption) |
 | **Stage 8: 2×2 Factorial Ablation** | 12 arms | ~11.5 GPU-hrs | `stage8_2x2_ablation_results.json` | `975ada2ca9ba5c059dd4f24102af1a9260bffb7045f4c950d192980eea077a7f` | Pre-registered 2×2 causal isolation of sketch tracking vs. proxy pruning under 0% test-set overlap |
-| **Canonical Audit Script** | 1 tool | Verification | `verify_all_tables_canonical.py` | `e6011d19c8f9d6ecc7eee80d2c773af9c13fe47bb60aab077e9b2404e05cc383` | Zero-tolerance automated recomputation asserting all tables match atomic logs |
+| **Canonical Audit Script** | 1 tool | Verification | `verify_all_tables_canonical.py` | `782088922765cc4fad8181f0a943cc4866eb5a1a36557aa492937d93b5d7498b` | Zero-tolerance automated recomputation asserting all tables match atomic logs |
 
 *Campaign Scale & Compute Reconciliation:* Across the campaign, we executed **105 primary GPU benchmark arm evaluations** (summing to exactly **98.5 GPU-hours** primary compute on Kaggle P100/T4 hardware), plus **5 CPU-only privacy sweeps** (Batch 2B, totaling 110 primary benchmark evaluations), and **6 intermediate checkpoint evaluations** (Stage 7 Milestone 1 checkpoint, 5.5 GPU-hours, bringing total compute to exactly **104.0 GPU-hours** across 17 experimental stages/phases backed by 17 JSON artifact files).
 

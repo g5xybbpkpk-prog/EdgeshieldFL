@@ -2,6 +2,10 @@
 
 **Mapping the Empirical Boundaries of Privacy-Preserving Defense in Heterogeneous Federated Networks**
 
+**Author:** Sir ASFC Mishr (Anshul Mishr)  
+**Affiliation:** Department of Computer Science and Engineering, Birla Institute of Technology and Science (BITS), Pilani  
+**Contact:** `2024eb03337@online.bits-pilani.ac.in`
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-green.svg)](https://www.python.org/)
 [![Reproducibility Audit](https://img.shields.io/badge/Reproducibility-100%25%20Verified-brightgreen.svg)](#quickstart-reproducing-paper-tables--metrics)
@@ -121,10 +125,24 @@ All 17 experimental JSON artifacts and protocol files are indexed below with the
 | `stage7_alpha1_5seeds_results.json` | Stage 7 Milestone 1 5-seed replication ($\alpha=1.0$, seeds 45, 46) | `1515fb54f6748d3adb1cc005ffd76510adecfdafb56659e4b8a643d98840eb64` |
 | `stage7_alpha1_seeds_results.json` | Stage 7 full multi-seed sweep ($\alpha=1.0$, seeds 45–48) | `1e9676cb65ad8635b514560e012f4a636e488706807d09c9642554707ddbc980` |
 | `stage8_2x2_ablation_results.json` | Stage 8 $2\times 2$ factorial ablation (Seeds 42–47, 12 arms, 0% overlap) | `975ada2ca9ba5c059dd4f24102af1a9260bffb7045f4c950d192980eea077a7f` |
-| `verify_all_tables_canonical.py` | Automated recomputation and verification script | `e6011d19c8f9d6ecc7eee80d2c773af9c13fe47bb60aab077e9b2404e05cc383` |
+| `verify_all_tables_canonical.py` | Automated recomputation and verification script | `782088922765cc4fad8181f0a943cc4866eb5a1a36557aa492937d93b5d7498b` |
+
+---
+
+## Citation
+
+```bibtex
+@article{mishr2026edgeshield,
+  title   = {EdgeShield-FL: Mapping the Empirical Boundaries of Privacy-Preserving Defense in Heterogeneous Federated Networks},
+  author  = {Mishr, Sir ASFC (Anshul Mishr)},
+  school  = {Department of Computer Science and Engineering, Birla Institute of Technology and Science (BITS), Pilani},
+  year    = {2026},
+  note    = { Correspondence: 2024eb03337@online.bits-pilani.ac.in }
+}
+```
 
 ---
 
 ## License
 
-This project is released under the [MIT License](LICENSE).
+Copyright (c) 2026 Sir ASFC Mishr (Anshul Mishr). Released under the [MIT License](LICENSE).
