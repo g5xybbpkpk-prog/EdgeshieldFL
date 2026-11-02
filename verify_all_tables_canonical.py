@@ -38,6 +38,17 @@ import os
 import re
 import glob
 
+# Automatically reassemble split multi-part JSON archives (e.g., stage6A_seeds_results.json.part_*)
+# created to stay under GitHub web upload 25 MB per-file limits.
+for _target_json in ["stage6A_seeds_results.json", "stage6B_alphasweep_results.json"]:
+    if not os.path.exists(_target_json):
+        _parts = sorted(glob.glob(_target_json + ".part_*"))
+        if _parts:
+            with open(_target_json, "wb") as _out_f:
+                for _p in _parts:
+                    with open(_p, "rb") as _in_f:
+                        _out_f.write(_in_f.read())
+
 discrepancies = []
 
 def assert_match(table_name, cell_name, computed_val, expected_val, tol=0.005):
