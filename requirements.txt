@@ -1,0 +1,10 @@
+# Core verification scripts (verify_all_tables_canonical.py and offline mode of eval_checkpoints.py)
+# require only the Python 3.8+ standard library (0 external dependencies).
+#
+# To run full CIFAR-10 training sweeps or GPU checkpoint evaluation:
+numpy>=1.24.0
+torch>=2.0.0
+torchvision>=0.15.0
+matplotlib>=3.7.0
+tqdm>=4.65.0
+scipy>=1.10.0

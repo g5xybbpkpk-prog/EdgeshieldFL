@@ -1,0 +1,12 @@
+[EdgeShield_EMA_SignFlip20_a1.0_s45] Pillar4 | FT=False | Prune=0.15 | Units=[57, 36, 33, 44, 29, 23, 13, 26, 51] | HeldOut Clean 50.50->50.50 | Trig 1.68->0.56 | Rollback=False
+[EdgeShield_EMA_SignFlip20_a1.0_s45] Pillar4 | FT=False | Prune=0.15 | Units=[3, 62, 0, 46, 56, 52, 28, 53, 27] | HeldOut Clean 57.00->53.50 | Trig 3.91->1.12 | Rollback=True
+[EdgeShield_EMA_SignFlip20_a1.0_s45] Pillar4 | FT=False | Prune=0.15 | Units=[3, 62, 0, 52, 60, 53, 42, 28, 22] | HeldOut Clean 63.50->61.50 | Trig 2.79->2.23 | Rollback=False
+[EdgeShield_EMA_SignFlip20_a1.0_s45] Pillar4 | FT=False | Prune=0.15 | Units=[56, 46, 25, 15, 58, 2, 45, 59, 27] | HeldOut Clean 63.50->60.50 | Trig 3.35->0.56 | Rollback=True
+[EdgeShield_EMA_SignFlip20_a1.0_s46] Pillar4 | FT=False | Prune=0.15 | Units=[14, 61, 0, 15, 30, 62, 12, 5, 10] | HeldOut Clean 49.00->48.50 | Trig 5.59->5.03 | Rollback=False
+[EdgeShield_EMA_SignFlip20_a1.0_s46] Pillar4 | FT=False | Prune=0.15 | Units=[59, 58, 42, 47, 32, 55, 43, 33, 52] | HeldOut Clean 53.50->53.50 | Trig 5.03->3.91 | Rollback=False
+[EdgeShield_EMA_SignFlip20_a1.0_s46] Pillar4 | FT=False | Prune=0.15 | Units=[19, 56, 54, 5, 16, 20, 24, 50, 39] | HeldOut Clean 58.00->57.50 | Trig 3.91->2.23 | Rollback=False
+[EdgeShield_EMA_SignFlip20_a1.0_s46] Pillar4 | FT=False | Prune=0.15 | Units=[22, 41, 3, 21, 37, 0, 63, 31, 57] | HeldOut Clean 60.50->55.50 | Trig 2.79->3.35 | Rollback=True
+[EdgeShield_EMA_SignFlip20_a1.0_s47] Pillar4 | FT=False | Prune=0.15 | Units=[8, 41, 47, 34, 55, 20, 2, 14, 62] | HeldOut Clean 46.50->45.50 | Trig 0.56->0.56 | Rollback=False
+[EdgeShield_EMA_SignFlip20_a1.0_s47] Pillar4 | FT=False | Prune=0.15 | Units=[1, 61, 52, 13, 49, 29, 5, 45, 21] | HeldOut Clean 53.50->50.50 | Trig 1.12->0.56 | Rollback=True
+[EdgeShield_EMA_SignFlip20_a1.0_s47] Pillar4 | FT=False | Prune=0.15 | Units=[1, 49, 61, 29, 13, 21, 52, 51, 5] | HeldOut Clean 57.50->54.00 | Trig 1.12->0.00 | Rollback=True
+[EdgeShield_EMA_SignFlip20_a1.0_s47] Pillar4 | FT=False | Prune=0.15 | Units=[61, 29, 49, 21, 1, 52, 5, 45, 19] | HeldOut Clean 58.00->55.50 | Trig 2.23->1.12 | Rollback=True
