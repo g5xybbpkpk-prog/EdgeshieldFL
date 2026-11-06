@@ -3,9 +3,7 @@
 **Mapping the Empirical Boundaries of Privacy-Preserving Defense in Heterogeneous Federated Networks**
 
 **Author:** Sir ASFC Mishr (Anshul Mishr)  
-**Affiliation:** Department of Computer Science and Engineering, Birla Institute of Technology and Science (BITS), Pilani 
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+](LICENSE)
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-green.svg)](https://www.python.org/)
 [![Reproducibility Audit](https://img.shields.io/badge/Reproducibility-100%25%20Verified-brightgreen.svg)](#quickstart-reproducing-paper-tables--metrics)
 
